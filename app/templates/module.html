@@ -1,0 +1,2 @@
+{% extends "base.html" %}{% block content %}<div class="page-intro"><div><p class="muted">Workspace module</p><h2>{{ heading }}</h2></div><span class="live-pill"><i></i> Awaiting connection</span></div><div class="empty-module panel"><span class="empty-icon">{{ icon }}</span><h3>{{ heading }} is ready to configure</h3><p>Connect the relevant service to view live data. Auto Cloud AI never presents unavailable integrations as real findings.</p><a href="{{ url_for('ai.assistant') }}" class="btn btn-outline-light">Ask AI for setup guidance</a></div>{% endblock %}
+
